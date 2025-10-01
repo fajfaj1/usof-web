@@ -1,0 +1,8 @@
+.playerlist {
+    display: flex;
+}
+.player {
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+}
