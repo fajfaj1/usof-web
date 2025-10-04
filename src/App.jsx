@@ -1,4 +1,3 @@
-
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
@@ -10,8 +9,6 @@ import { Draft } from './pages/draft'
 function App() {
   return (
     <>
-    
-      
       <Routes>
         <Route path="/" element={<Draft />} />
         <Route path="/game" element={<Game />} />
