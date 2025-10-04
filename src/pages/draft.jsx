@@ -3,16 +3,8 @@ import { useState } from 'react'
 import { PlayerList } from '../components/PlayerList'
 
 export function Draft() {
-  const [teamA, setTeamA] = useState([
-    "Lorem",
-    "Ipsum",
-    "Dolor"
-  ])
-  const [teamB, setTeamB] = useState([
-    "Lorem",
-    "Ipsum",
-    "Dolor"
-  ])
+  const [teamA, setTeamA] = useState([])
+  const [teamB, setTeamB] = useState([])
     return (<><div className="playerlists">
         <div>
             <h3>Drużyna A</h3>
